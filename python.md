@@ -84,29 +84,41 @@ texto_numero = str(True)
 # Simples
 Para comparações simples podemos fazer da seguinte maneira:
 ```python
-idade = 21
-if idade < 18:
-  print("Você é menor de idade não pode beber!")
+numero = 3
+numero = 2
+numero = 1
+maior = 0
+if numero1 > numero2 and numero1 > numero3:
+    maior = numero1
+print("O maior número é: {}".format(maior))
 ```
 # Com uma variação
 Para comparações com uma verificação e o oposto dessa faça o seguinte:
 ```python
-idade = 21
-if idade < 18:
-  print("Você é menor de idade não pode beber!")
+numero = 3
+numero = 2
+numero = 1
+maior = 0
+if numero1 > numero2 and numero1 > numero3:
+  maior = numero1
 else:
-  print("Pode beber o quanto quiser!")
+  maior = 3
+print("O maior número é: {}".format(maior))
 ```
 # Comparações com mais de uma verificação
 Para comparações mais complexas devemos ter o seguinte código:
 ```python
-idade = 21
-if idade <= 16:
-  print("Volte para casa!")
-elif idade > 16 and idade < 18:
-  print("Ainda não pode beber!")
+numero = 3
+numero = 2
+numero = 1
+maior = 0
+if numero1 > numero2 and numero1 > numero3:
+  maior = numero1
+elif numero2 > numero1 and numero2 > numero3:
+  maior = numero2
 else:
-  print("Pode beber!")
+  maior = numero3
+print("O maior número é: {}".format(maior))
 ```
 
 > Em todos as verificações (exceto no `else` que não tem) podemos ter uma ou mais no formato de condições como as acima que utilizam os conectivos(operadores lógicos), listados na tabela:
@@ -152,3 +164,23 @@ Tabela verdade (ou)
 |:--------:|:-------------:|
 | True     | Verdadeiro    |
 | False    | Falso         |
+
+# Calculos
+Podemos calcular a soma, multiplicação, divisão, subtração, exponenciação, divisão inteira e modulo (resto) da divisão:
+
+| Operador | Funcionalidade   |
+|:--------:|:----------------:|
+| +        | Soma             |
+| -        | Subtração        |
+| *        | Multiplicação    |
+| /        | Divisão          |
+| **       | Exponenciação    |
+| //       | Divisão inteira  |
+| %        | Resto da divisão |
+
+Exemplo:
+```python
+numero1 = 5
+numero2 = 3
+media = (numero1 + numero2) / 2
+```
