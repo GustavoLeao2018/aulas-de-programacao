@@ -3,6 +3,23 @@
 Os comandos básicos para a criação e manutenção de um repositório git são os  seguintes:
 
 ## Comandos básicos
+### Comandos de configuração
+#### Adicionando um email e usuário
+Para adicionar um email global ao usuário git use o comando abaixo:
+```bash
+git config --global user.email "seu_email@servidor.com"
+```
+Para adicionar um nome ao seu usuário git use o comando:
+```bash
+git config --global user.name "seu_nome"
+```
+#### Saídas do git coloridas
+Para todas as informações que são resultados dos comandos serem mostradas coloridas faça como abaixo:
+```bash
+git config color.ui true
+```
+
+
 ### Inicializando o repositório
 Sempre que formos inicializar o repositório local em nossa máquina executamos o comando abaixo:
 ```bash
