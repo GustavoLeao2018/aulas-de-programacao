@@ -139,9 +139,9 @@ Ou também pode ser:
 python -m behave
 ```
 > Tem que ser mostrado a mensagem como abaixo:
-> ``` 1 feature passed, 0 failed, 0 skipped```
-> ``` 1 scenario passed, 0 failed, 0 skipped```
-> ``` 3 steps passed, 0 failed, 0 skipped, 0```
+> 1 feature passed, 0 failed, 0 skipped
+> 1 scenario passed, 0 failed, 0 skipped
+> 3 steps passed, 0 failed, 0 skipped, 0
 
 19. Adicione os arquivos ao git, com o comando:
 ```bash
