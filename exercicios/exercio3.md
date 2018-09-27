@@ -27,7 +27,38 @@ Calcule o fatorial de um número inteiro digitado pelo teclado.
 
 ## Exercício 5
 Dada a lista abaixo liste item por item:
+nomes = [ "Gustavo","Lucas","Guilherme","Paulo", "João", "Tiago", "Marcelo" ]
+
 
 
 # Exercício de while
 ## Exercício 1
+
+Pedir ao usuário quantas pessoas ele deseja inserir e cadastre elas em nome por nome, em uma lista, com o commando `append`.
+
+Após liste os nomes de cada um.
+
+## Exercício 2
+
+Peça ao usuário um número e calcule a tabuada dele (de 0 até 10).
+
+## Exercício 3
+
+Faça um loop infinito, onde:
+
+* Leia um número e some ao total.
+* Conte quantos números foram calculados.
+* Se for par calcule o seu quadrado.
+* Se for ímpar calcule seu cubo.
+* Pergunte ao usuário se deseja ou não continuar.
+
+
+## Exercício 4
+
+Faça um programa que leia uma senha e verifique:
+
+* Qual o tamanho
+ - Se maior 12 ou menor que 6, peça novamente.
+* Escreva de um por um dos caracteres que compoem a senha.
+
+ 
